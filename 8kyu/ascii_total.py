@@ -9,7 +9,7 @@ def uni_total(s):
     total: int = 0
     for i in s:
         total += ord(i)
-    return(total)
+    return total
 
 # best practices
 # def uni_total(string):
